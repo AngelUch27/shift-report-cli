@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-12",
+  "shift": "night",
+  "line": "Line 2",
+  "operator": "M. Torres",
+  "incidents": [
+    {"id": "INC-0413", "title": "Air compressor pressure dip", "severity": "medium", "time": "04:10", "downtime_min": 15, "status": "resolved", "action": "Filter replaced."},
+    {"id": "INC-0412", "title": "Coolant pump P-101 overheating", "severity": "high", "time": "02:50", "downtime_min": 40, "status": "open", "action": "Pump switched to standby; vendor visit requested."},
+    {"id": "INC-0414", "title": "Label printer jam", "severity": "low", "time": "05:30", "status": "resolved", "action": "Cleared."}
+  ],
+  "notes": ["Keep P-101 on standby until the vendor confirms the bearing."]
+}

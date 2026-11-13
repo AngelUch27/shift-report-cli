@@ -1,0 +1,9 @@
+{
+  "name": "shift-report-cli",
+  "version": "1.0.0",
+  "description": "Markdown shift handover reports from a JSON list of incidents",
+  "bin": {"shift-report": "bin/shift-report.js"},
+  "scripts": {"test": "node --test"},
+  "license": "MIT",
+  "engines": {"node": ">=18"}
+}
